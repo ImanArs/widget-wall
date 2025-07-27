@@ -1,0 +1,34 @@
+# 👉 Общие игноры
+node_modules/
+dist/
+dist-ssr/
+*.log
+*.local
+*.pid
+.DS_Store
+
+# 👉 Backend
+backend/node_modules/
+backend/.env
+backend/*.log
+
+# 👉 Frontend (vite/next)
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/*.local
+
+# 👉 Editor
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 👉 Lockfiles (если ты не хочешь пушить их)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
